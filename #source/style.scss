@@ -1,0 +1,668 @@
+/*Обнуление стилей*/
+  
+  @import "nullStyle.scss";
+/*Обнуление стилей*/
+
+/*Group_1*/
+
+	.group_1{
+    background-image: url("../img/HeaderBackground1.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+  .toolbar{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+  }
+  .toolbar > a {
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-right: 75px;
+    &:hover{
+    text-shadow: 3px 3px 10px #000;
+  }
+}
+
+
+  .inputBar{
+    background-color: #fff;
+    width: 30%;
+    height: 40px;
+    border-radius: 25px;
+    position: absolute;
+    left: 90%;
+    bottom: -40%;
+    color: #2e3034;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 15px;
+    &:focus{
+      text-decoration: none;
+      outline: none;
+    }
+  }
+  .btnSearch{
+    position: absolute;
+    left: 105%;
+    top: -150%;
+  }
+
+  .logoPic{
+  	width: 110px;
+  	position: absolute;
+  	top: 15%;
+  	left: 7%;
+  }
+
+  .textLogo{
+  	font-family: "RalewayRegular";
+  	color: #fff;
+  	font-size: 70px;
+  	position: absolute;
+  	top: 35%;
+  	left: 7%;
+  }
+
+  .loremText{
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	position: absolute;
+  	top: 55%;
+  	left: 7%;
+  	font-size: 20px;
+    & > span{
+      font-weight: bold;
+      letter-spacing: 5px;
+    }
+    & > p{
+      width: 550px;
+    }
+  }
+
+  .ReadMorebutton{
+  	background-color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 13px;
+    position: relative;
+    margin: 20px 0;
+    & > a{
+      color: #2e3034;
+      font-weight: bold;
+      position: absolute;
+      left: 18%;
+      top: 20%;
+    }
+    &:hover{
+      background-color: #BDBDBD;
+    }
+  }
+
+
+  .plate1Img{
+  	width: 450px;
+  	position: absolute;
+  	top: 15%;
+  	left: 55%;
+  }
+  
+  .plate2Img{
+  	width: 250px;
+  	position: absolute;
+  	top: 60%;
+  	left: 45%;
+  }
+  .leavesImg{
+  	width: 650px;
+  	position: absolute;
+  	top: 45%;
+  	left: 57%;
+  }
+/*Group_1*/
+
+/*Group_2*/
+  .group_2{
+    height: 140vh;
+    position: relative;
+  }
+  .group_2 > *{
+    color: #2e3034;
+  }
+  .LogoText{
+    font-size: 85px;
+    font-family: "RalewayRegular";
+    position: absolute;
+    top: 8%;
+    left: 22%;
+  }
+  .LoremText{  
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .img-block > img{
+    width: 300px;
+  }
+  .Plate3{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+  }
+
+  .Plate4{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+  }
+
+  .Plate5{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+  }
+  .text{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    width: 250px;
+    & > *{
+      color: #2e3034;
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+    & > h3{
+      font-size: 30px;
+    }
+    & > p{
+      font-family: none;
+      margin-left: 2px;
+      font-size: 20px;
+    }
+  }
+  .text2{
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    width: 250px;
+    & > *{
+      color: #2e3034;
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+    & > h3{
+      font-size: 30px;
+    }
+    & > p{
+      font-family: none;
+      margin-left: 2px;
+      font-size: 20px;
+    }
+  }
+  .text3{
+    position: absolute;
+    top: 70%;
+    left: 72%;
+    width: 250px;
+    & > *{
+      color: #2e3034;
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+    & > h3{
+      font-size: 30px;
+    }
+    & > p{
+      font-family: none;
+      margin-left: 2px;
+      font-size: 20px;
+    }
+  }
+
+  .ShowMorebuttonTwo{
+    background-color: #343434;
+    width: 300px;
+    height: 80px;
+    border-radius: 40px;
+    position: absolute;
+    top: 90%;
+    left: 35%;
+  }
+  .ShowMorebutton > a{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 21%;
+    top: 22%;
+    font-size: 30px;
+  }
+/*Group_2*/
+
+/*Group_3*/
+  .group_3{
+    height: 90vh;
+    background-color: #27292c;
+    position: relative;
+  }
+  .secondLogoText{
+    color: #fff;
+    position: absolute;
+    top: 10%;
+  }
+  .someText{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    & > p:first-child{
+      position: absolute;
+      top: 42%;
+      left: 10%;
+      width: 500px;
+    }
+    & > p:last-child{
+      position: absolute;
+      top: 42%;
+      left: 50%;
+      width: 500px;
+    }
+  }
+  .MoreInfobutton{
+    background-color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px 17px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    & > a{
+      color: #27292c;
+      font-size: 20px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      text-transform: uppercase;
+    }
+    &:hover{
+      background-color: #BDBDBD;
+    }
+  }
+/*Group_3*/
+
+/*Group_4*/
+  .group_4{
+    position: relative;
+    height: 170vh;
+  }
+
+  .Plate6{
+    width: 500px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  .logoLorem{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    & > *{
+      color: #292B2E;
+    }
+    & > span{
+      font-size: 55px;
+    }
+    & > p{
+      font-size: 20px;
+      width: 600px;
+    }
+  }
+  .ReadMorebuttonTwo{
+    background-color: #2e3034;
+    width: 300px;
+    height: 70px;
+    border-radius: 40px;
+    position: relative;
+    margin: 20px 0;
+    padding: 12px 65px;
+    & > a{
+      font-size: 30px;
+      color: #fff;
+      font-weight: bold;
+    }
+    &:hover{
+      background-color: #50535A;
+    }
+  }
+
+  .logoLoremTwo{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    & > *{
+      color: #292B2E;
+    }
+    & > span{
+      font-size: 55px;
+    }
+    & > p{
+      font-size: 20px;
+      width: 600px;
+    }
+  }
+
+  .Plate7{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+/*Group_4*/
+
+/*Group_5*/
+  .group_5{
+    background-image: url("../img/HeaderBackground1.png");
+    height: 120vh;
+    position: relative;
+  }
+  .LoremTextTwo{
+    position: absolute;
+    top: 22%;
+    left: 32%;
+    width: 500px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .LogoTextLorem{
+    font-size: 60px;
+    font-family: "RalewayRegular";
+    position: absolute;
+    top: 8%;
+    left: 22%;
+    color: #fff;
+  }
+  .group_5 > span{
+    font-size: 200px;
+    position: absolute;
+    top: 1%;
+    left: 45%;
+  }
+  .Pizza7of8{
+    width: 800px;
+    transform: scale(-1, 1);
+    position: absolute;
+    top: 20%;
+    left: 30%;
+  }
+  .Pizza1of8{
+    width: 400px;
+    transform: scale(-1, 1);
+    position: absolute;
+    top: 73%;
+    left: 25%;
+  }
+  .Leaves2{
+    width: 100%;
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+  }
+/*Group_5*/
+
+/*Group_6*/
+  .group_6{
+    height: 100vh;
+    position: relative;
+  }
+
+  .loremDiv > span{
+    font-size: 50px;
+    font-family: "RalewayRegular";
+    position: absolute;
+    color: #393939;
+  }
+  .group_6 > .loremDiv:nth-child(1) > span{
+    top: 15%;
+    left: 8%;
+  }
+  .group_6 > .loremDiv:nth-child(2) > span{
+    top: 15%;
+    left: 38%;
+  }
+  .group_6 > .loremDiv:nth-child(3) > span{
+    top: 15%;
+    left: 73%;
+  }
+
+  .group_6 > .loremDiv:nth-child(1) > p{
+    top: 30%;
+    left:5%;
+  }
+  .group_6 > .loremDiv:nth-child(2) > p{
+    top: 30%;
+    left: 36%;
+  }
+  .group_6 > .loremDiv:nth-child(3) > p{
+    top: 30%;
+    left: 70%;
+  }
+
+  .loremDiv > p{
+    color: #393939;
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    width: 350px;
+  }
+  .textBlock > *{
+    color: #393939;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 20%;  
+    width: 800px;
+  }
+  .textBlock > span{
+    top: 85%;
+  }
+/*Group_6*/
+
+/*Group_7*/
+  .group_7{
+    height: 100vh;
+    position: relative;
+    background-color: #27292C;
+  }
+  .title{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 50px;
+  }
+  .someLorem{
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 700px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .input{
+    position: relative;
+    top: 60%;
+    left: 30%;
+    width: 700px;
+    height: 100px;
+  }
+  input.textBar{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 20px;
+    color: #27292C;
+    &:focus{
+      outline: none;
+    }
+  }
+  .btnSubscribe{
+    background-color: #54524F;
+    border-radius: 20px;
+    position: absolute;
+    left: 56%;
+    top: 1%;
+    padding: 14px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    & > a{
+      color: #fff;
+    }
+    &:hover{
+      background-color: #666460;
+    }
+  }
+  .Leaves3{
+    width: 90%;
+    position: absolute;
+    top: -8%;
+  }
+/*Group_7*/
+
+/*Group_8*/
+  .group_8{
+    position: relative;
+    height: 80vh;
+    padding: 5%;
+  }
+  [class^="footer"] > *{
+    font-family: 'Montserrat', sans-serif;
+    color: #343434;
+    & > a{
+      color: #343434;
+    }
+    & > a:hover{
+      color: #616161;
+    }
+  }
+  .loremFoot{
+    width: 350px;
+  }
+
+  .footer1{
+    position: absolute;
+    bottom: 45%;
+    & > .footTitle{
+      margin: 3% 0;
+    }
+  }
+  .footer2{
+    position: absolute;
+    left: 40%;
+    bottom: 42%;
+    & > .footTitle{
+      margin: 8% 0;
+    }
+  }
+  .footer3{
+    position: absolute;
+    left: 60%;
+    bottom: 42%;
+    & > .footTitle{
+      margin: 9% 0;
+    }
+  }
+  .footer4{
+    position: absolute;
+    left: 80%;
+    bottom: 48%;
+    & > .footTitle{
+      margin: 11% 0;
+    }
+  }
+  .icons{
+    position: absolute;
+    top: 60%; 
+    & > img{
+      width: 40px;
+      background-color: #000;
+      filter: invert(100%);
+      border-radius: 10px;
+    }
+    & > img:hover:nth-child(1){
+      background-color: #D0257A;
+      filter: invert(0%);
+    }
+    & > img:hover:nth-child(2){
+      background-color: #0059A5;
+      filter: invert(0%);
+    }
+    & > img:hover:nth-child(3){
+      background-color: #00ADEB;
+      filter: invert(0%);
+    }
+    & > img:hover:nth-child(4){
+      background-color: #29A71A;
+      filter: invert(0%);
+    }
+  }
+/*Group_8*/
+
+
+/*Fonts*/
+  @font-face{
+    font-family: "RalewayRegular";
+    src: url("../Fonts/ReeyRegular.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  @font-face{
+    font-family: 'Open Sans Condensed', sans-serif;
+    src: url("../Fonts/OpenSans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+  }
+  @font-face{
+    font-family: 'Montserrat', sans-serif;
+    src: url("../Fonts/Montserrat.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+/*Fonts*/
+
+
+
+/*Scroll styling*/
+  ::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:5px;
+    height:0px
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color:#27292c
+  }
+
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color:#91A828;
+  }
+
+  ::-webkit-scrollbar-thumb:hover{
+    background-color:#56999f;
+  }
+
+  ::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:4px;
+    height:0px
+  }
+
+  ::-webkit-scrollbar{
+    width: 4px;
+  }
+/*Scroll styling*/
